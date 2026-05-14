@@ -6,6 +6,8 @@ This project focuses on predicting customer churn using machine learning techniq
 
 The project was implemented using Python in Google Colab and includes the complete machine learning workflow, from data preprocessing to model evaluation.
 
+This repository contains machine learning models developed to predict customer churn using the Telco Customer Churn dataset. Multiple classification algorithms including Logistic Regression, Random Forest, and XGBoost were implemented and evaluated using ROC-AUC metrics.
+
 ## Dataset
 
 Dataset used: Telco_Customer_Churn.csv
@@ -36,6 +38,7 @@ Class balancing techniques were applied to address dataset imbalance and improve
 ## Project Workflow
 
 ### 1. Data Preprocessing
+
 * Generated new features from existing customer attributes to improve model performance
 * Encoded categorical variables
 * Performed class balancing to address dataset imbalance
@@ -59,10 +62,12 @@ Among the tested models, XGBoost demonstrated strong predictive performance for 
 
 ## Repository Contents
 
-* `Customer_Churn_Prediction.ipynb` — Main Google Colab notebook
-* `README.md` — Project documentation
-* `requirements.txt` — Required Python dependencies
-* Dataset file
+01_Logistic_Regression.ipynb
+02_Random_Forest.ipynb
+03_XGBoost.ipynb
+README.md
+Telco_Customer_Churn.csv
+requirements.txt
 
 ## How to Run the Project
 
